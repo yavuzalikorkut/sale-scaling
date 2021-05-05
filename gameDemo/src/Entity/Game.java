@@ -1,6 +1,8 @@
 package Entity;
 
-public class Game {
+import Abstract.GameEntity;
+
+public class Game implements GameEntity{
 	private int id;
 	private String name;
 	private int price;
